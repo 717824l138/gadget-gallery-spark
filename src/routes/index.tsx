@@ -1,23 +1,3 @@
-import { createFileRoute } from "@tanstack/react-router";
-import { useMemo, useState } from "react";
-import { ArrowDownAZ, ArrowUpAZ, Cpu, Search } from "lucide-react";
-import { CATEGORIES, devices, type Device, type DeviceCategory } from "@/data/devices";
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-} from "@/components/ui/dialog";
-
-export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "Electronic Devices & Applications Catalog" },
-      {
         name: "description",
         content:
           "Browse a curated catalog of electronic devices with categories, descriptions, and primary applications.",
