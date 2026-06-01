@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "electronic devices" },
+      { name: "description", content: "A web application to browse and discover electronic devices and their applications." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "electronic devices" },
+      { property: "og:description", content: "A web application to browse and discover electronic devices and their applications." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "electronic devices" },
+      { name: "twitter:description", content: "A web application to browse and discover electronic devices and their applications." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/48c793a4-fce2-43ac-af90-a43e0afffb8e/id-preview-b6c7a9cf--c3ac452a-effa-4d8d-b09e-f0f2bbe03565.lovable.app-1780288275703.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/48c793a4-fce2-43ac-af90-a43e0afffb8e/id-preview-b6c7a9cf--c3ac452a-effa-4d8d-b09e-f0f2bbe03565.lovable.app-1780288275703.png" },
     ],
     links: [
       {
