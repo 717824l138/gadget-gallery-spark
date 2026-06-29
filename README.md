@@ -9,3 +9,4 @@ Gadget Gallery Spark is a sleek, web‑based showcase designed to highlight inno
 🔍 Organized Layout – Easy browsing experience with clear categories.
 
 🌐 Hosted Online – Accessible anytime via gadget-gallery-spark.lovable.app (gadget-gallery-spark.lovable.app in Bing).
+link for this app : gadget-gallery-spark.lovable.app
